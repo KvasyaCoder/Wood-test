@@ -1,4 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 .modal{
+    font-family: 'Inter', sans-serif;
+
     position:fixed;
     left: 0;
     right:0;
@@ -49,10 +53,17 @@
 
 
 .slider__img{
-    
+    height:auto;
+    max-width: 100%;
     background-color: #f30;
+    width: 100px;
+    max-height: 600px;
+    border-radius: 25px;
 }
 
+.img_2{
+    border-color: 2px solid rebeccapurple;
+}
 .slider{
     width: 80%;
     margin: 0 auto;
@@ -82,7 +93,7 @@
 .slider__side{
     width:50%;
     height:100%;
-    background-color: aqua;
+    
 }
 
 .info__side{
@@ -91,6 +102,14 @@
     border-radius: 25px;
     position: relative;
     width:50%;
-    background: rgb(155, 148, 148);
     text-align: center;
+}
+
+.prop__list{
+    display: block;
+    text-align: left;
+}
+
+.prop__list h3,p{
+    padding-bottom: 1em;
 }
